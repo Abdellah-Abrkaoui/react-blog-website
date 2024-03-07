@@ -1,0 +1,71 @@
+.register{
+    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.2))
+    ,url("/src/assets/cta-banner.jpg");
+    height: calc(100vh - 50px);
+    background-repeat: no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: "Lora", serif;
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;background-color: lightcoral;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 250px;
+}
+
+.registerRegisetrbtn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 0;
+    background-color: teal;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.registerTitle{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.registerForm > label{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.registerForm > input{
+    border: 0;
+    outline: 0;
+    padding: 7px 5px;
+    height: 30px;
+    border-radius: 5px;
+    height: 18px;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+
+.registerBtn{
+    margin-top: 30px;
+    border: 0;
+    background-color: white;
+    color: lightcoral;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+
+}

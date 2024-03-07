@@ -1,0 +1,65 @@
+.write{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.writeImg{
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.writeForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formGroup{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.inputTitle{
+    outline: 0;
+    border: 0;
+    font-size: 30px;
+    flex: 9;
+}
+
+.uploadIcon{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex: 1;
+}
+
+.textarea{
+    outline: 0;
+    border: 0;
+    font-size: 20px;
+    width: 1000px;
+    min-height: 50px;
+    height: 100vh;
+}
+
+.publishBtn{
+    background-color: teal;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    width: 100px;
+    
+}

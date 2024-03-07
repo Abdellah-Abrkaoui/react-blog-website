@@ -1,0 +1,75 @@
+.fullpost{
+    flex: 9;
+}
+.postWrapper{
+    padding: 0px 20px;
+}
+.fullpostImg{
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+
+.fullPostInfoTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 10px 0px;
+}
+
+
+.fullPostTitle{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Lora", " Sans serif"; 
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.fullpostEditDelete{
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.edit{
+    color: green;
+}
+
+.delete{
+    color: tomato;
+}
+
+.authorInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.authorname{
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(154, 104, 12);
+}
+
+.published{
+    color: gray;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.fullpostDesc{
+    line-height: 25px;
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    
+}

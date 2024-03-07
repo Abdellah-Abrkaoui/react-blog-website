@@ -1,0 +1,105 @@
+.settings{
+    margin-top: 20px;
+    display: flex;
+}
+
+.settingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+
+.SettingsImgContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.SettingsImgContainer > img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.settingsTitles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 40px;
+}
+
+.settingsupdate{
+    font-size: 24px;
+    font-weight: 700;
+    color: lightcoral;
+}
+
+.settingsdelete{
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
+}
+
+.settingsPP{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.settingsPP > span{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 19px;
+    
+}
+.settingsUploadIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    color: white;
+    background-color: lightcoral;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Varela Round", sans-serif;
+    position: relative;
+}
+
+.formItem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formItem > input{
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    font-size: 16px;
+    outline: 0;
+}
+
+.updateBtn{
+    margin-top: 30px;
+    width: 200px;
+    padding: 10px;
+    border: 0;
+    color: white;
+    background-color: teal;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: -100px;
+    right: 40%;
+}
